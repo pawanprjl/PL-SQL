@@ -21,7 +21,6 @@ DECLARE
     
     
 FUNCTION getPattern(X IN NUMBER)RETURN VARCHAR2 IS patt VARCHAR2(20);
-    
     BEGIN
         name := namesarray('x','y','z','w');  
         char := to_char(X);  
